@@ -39,7 +39,7 @@ public class WeaselProgram {
                     bestFitCopy = reproducedCopy;
                 }
 
-                if (greatestScore > SIZE) {
+                if (greatestScore == SIZE) {
                     break;
                 }
             }
